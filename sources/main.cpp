@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
 
     // Initialise the server.
     websocket::applications::chat::server s(argv[1], argv[2]);
-    
+    ////////////////////////////////////
     std::cout << "Server has started." << std::endl;
     std::cout << "Press Ctrl+C (Ctrl+Break) to exit." << std::endl << std::endl;
     // Run the server until stopped.
